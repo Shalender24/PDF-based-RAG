@@ -1,0 +1,4 @@
+page_content='User Agreement 
+1. Introduction 
+This User Agreement, the Mobile Application Terms of Use, and all policies and additional terms 
+posted on and in our sites, applications, tools, and services (collectively "Services") set out the terms' metadata={'producer': 'Microsoft® Word 2016', 'creator': 'Microsoft® Word 2016', 'creationdate': '2025-06-18T14:59:12+05:30', 'author': 'Shivani Gupta', 'moddate': '2025-06-18T14:59:12+05:30', 'source': 'data\\AI Training Document.pdf', 'total_pages': 20, 'page': 0, 'page_label': '1'}
