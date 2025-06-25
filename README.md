@@ -21,25 +21,6 @@ A smart, context-aware chatbot that allows you to **ask questions from your own 
 
 ---
 
-## Project Structure
-
-project/
-├── app.py # Streamlit chatbot interface
-├── requirements.txt # Python dependencies
-├── README.md # You're reading it
-│
-├── data/ # Place your PDFs here
-├── chunks/ # Generated text chunks
-├── vectordb/ # Saved FAISS vector store
-│
-└── src/
-├── retriever.py # Handles PDF loading, chunking, and embeddings
-├── generator.py # Loads the local Mistral LLM
-└── pipeline_scripts.py # Combines retriever and generator into a QA pipeline
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -51,15 +32,11 @@ Edit
 git clone https://github.com/yourusername/rag-chatbot.git
 cd rag-chatbot
 2. Create and Activate a Virtual Environment
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate       # Windows: venv\Scripts\activate
 3. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4. Add Your PDF Files
 Place all your .pdf documents in the data/ directory.
@@ -82,9 +59,7 @@ Chunks are passed to the local Mistral 7B model along with the question.
 A structured, trustworthy answer is generated and shown in the UI.
 
  Prompt Template (Used for Q&A)
-text
-Copy
-Edit
+
 You are a domain-specific assistant. You are provided with context from trusted documents.
 Only answer based on the context. If unsure, say: "I'm sorry, I couldn't find an exact answer to your question in the available documents."
 
@@ -96,9 +71,7 @@ Question:
 
 Answer (well-structured, use bullets/headings when helpful):
  Run the Chatbot
-bash
-Copy
-Edit
+
 streamlit run app.py
 Then open http://localhost:8501 in your browser.
 
@@ -114,9 +87,6 @@ Then open http://localhost:8501 in your browser.
  Example requirements.txt
 Generated with pip freeze > requirements.txt:
 
-text
-Copy
-Edit
 streamlit
 langchain
 langchain-community
