@@ -1,5 +1,7 @@
 # RAG-Powered PDF Chatbot using LangChain + Mistral
 
+#### Short working video : 
+https://drive.google.com/file/d/1r6VotObOdvzjpkLyFQLTRUvK_J1zlTmC/view?usp=drivesdk
 A smart, context-aware chatbot that allows you to **ask questions from your own PDF documents** using:
 
 - Semantic search with FAISS + Sentence Transformers
